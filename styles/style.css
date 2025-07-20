@@ -5,3 +5,60 @@
   font-weight: 400;
   font-style: normal;
 }
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.container{
+  max-width: 1240px;
+  margin: auto;
+}
+.btn-primary{
+  font-size: 1.25rem;
+  font-weight: 700;
+  background-color: rgb(229, 84, 115);
+  color: rgb(255, 255, 255);
+  padding: 12px 25px;
+  border: none;
+  border-radius: 10px;
+}
+
+/* header-section */
+.head{
+  background-color: rgba(229, 84, 115, 0.1);
+}
+
+.header-section{
+  display: flex;
+  padding-top: 50px;
+  
+}
+.header-left{
+  max-width: 50%;
+  align-items: center;
+  margin: auto;
+}
+.header-left h1{
+  font-weight: 800;
+  font-size: 4.5rem;
+  color: rgb(39, 39, 39);
+  a
+  
+}
+.header-left p{
+  font-size: 1.12rem;
+  color: rgba(39, 39, 39, 0.6);
+  margin: 20px auto;
+}
+.header-right{
+  flex: 1;
+
+}
+.header-right img{
+  /* max-width: 635px; */
+  display: flex;
+  height: 600px;
+  margin-left: 100px;
+  
+}
