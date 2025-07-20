@@ -12,7 +12,7 @@
 }
 .container{
   max-width: 1240px;
-  margin: auto;
+  margin: 0 auto;
 }
 .btn-primary{
   font-size: 1.25rem;
@@ -22,28 +22,30 @@
   padding: 12px 25px;
   border: none;
   border-radius: 10px;
+  cursor: pointer;
 }
 
 /* header-section */
 .head{
   background-color: rgba(229, 84, 115, 0.1);
+  width: 100%;
 }
 
 .header-section{
   display: flex;
   padding-top: 50px;
-  
+  align-items: center;
+   
 }
 .header-left{
   max-width: 50%;
   align-items: center;
-  margin: auto;
 }
 .header-left h1{
   font-weight: 800;
   font-size: 4.5rem;
   color: rgb(39, 39, 39);
-  a
+  
   
 }
 .header-left p{
@@ -61,4 +63,50 @@
   height: 600px;
   margin-left: 100px;
   
+}
+
+/* media query */
+@media screen and (max-width: 575px) {
+
+  .header-section{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 30px 20px;
+  }
+  .header-left{
+    max-width: 100%;
+    
+  }
+  .header-left h1{
+    font-size: 2.5rem;
+  }
+  .header-right img{
+    margin: 20px 0 0 0;
+    height:auto;
+    max-width: 100%;
+  }
+}
+
+
+@media screen and (min-width: 575px) and (max-width: 992px){
+
+  .header-section{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 30px 20px;
+  }
+  .header-left{
+    max-width: 100%;
+    
+  }
+  .header-left h1{
+    font-size: 4.0rem;
+  }
+  .header-right img{
+    margin: 20px 0 0 0;
+    height:auto;
+    max-width: 100%;;
+  }
 }
