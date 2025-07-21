@@ -169,6 +169,29 @@
   color: rgba(39, 39, 39, 0.60);
   margin-bottom: 25px;
 }
+.flower-card-section{
+  max-width: 570px;
+  text-align: center;
+  margin: 60px auto;
+}
+.flower-card-section h3{
+   font-size: 2.12rem;
+  font-weight: 800;
+  color: rgba(39, 39, 39, 1.00);
+  margin-bottom: 20px;
+}
+.flower-card-section p{
+  color: rgba(39, 39, 39, 0.60);
+  font-size: 1.12rem;
+  margin-bottom: 40px;
+}
+.flower-card{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.flower-card img{
+  max-width: 290px;
+}
 
 
 
@@ -223,6 +246,17 @@
     gap: 50px;
   }
 
+  .flower-card{
+    grid-template-columns:  1fr;
+    justify-items: center;
+    gap: 50px;
+   
+  }
+ 
+  .flower-card img{
+     width: 100%;
+     height: auto;
+  }
 }
 
 
@@ -257,5 +291,17 @@
   
   .discount-section{
     gap: 50px;
+  }
+
+  .flower-card{
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    gap: 50px;
+   
+  }
+ 
+  .flower-card img{
+     width: 100%;
+     height: auto;
   }
 }
