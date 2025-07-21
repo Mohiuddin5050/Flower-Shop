@@ -124,6 +124,26 @@
   color: rgb(49, 49, 49);
   margin-top: 25px;
 }
+.mini-card-section{
+  background-color: rgba(39, 39, 39, 0.05);
+  margin-top: 100px;
+  border-radius: 8px;
+}
+.mini-card-container{
+  display: flex;
+  justify-content: space-between;
+  padding: 80px 160px;
+  align-items: center;
+  text-align: center;
+}
+.mini-card p{
+  font-size: 1.35rem;
+  font-weight: 700;
+  color: rgba(39, 39, 39, 0.80);
+  margin-top: 20px;
+}
+
+
 
 
 
